@@ -27,7 +27,7 @@ CREATE TABLE `smbms_address` (
   `modifyDate` DATETIME DEFAULT NULL COMMENT '修改时间',
   `userId` BIGINT(20) DEFAULT NULL COMMENT '用户ID',
   PRIMARY KEY (`id`)
-) ENGINE=INNODB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=INNODB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- ----------------------------
 -- Records of smbms_address
@@ -58,7 +58,7 @@ CREATE TABLE `smbms_bill` (
   `modifyDate` DATETIME DEFAULT NULL COMMENT '更新时间',
   `providerId` INT(20) DEFAULT NULL COMMENT '供应商ID',
   PRIMARY KEY (`id`)
-) ENGINE=INNODB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=INNODB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- ----------------------------
 -- Records of smbms_bill
@@ -99,7 +99,7 @@ CREATE TABLE `smbms_provider` (
   `modifyDate` DATETIME DEFAULT NULL COMMENT '更新时间',
   `modifyBy` BIGINT(20) DEFAULT NULL COMMENT '更新者（userId）',
   PRIMARY KEY (`id`)
-) ENGINE=INNODB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=INNODB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- ----------------------------
 -- Records of smbms_provider
@@ -131,7 +131,7 @@ CREATE TABLE `smbms_role` (
   `modifyBy` BIGINT(20) DEFAULT NULL COMMENT '修改者',
   `modifyDate` DATETIME DEFAULT NULL COMMENT '修改时间',
   PRIMARY KEY (`id`)
-) ENGINE=INNODB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=INNODB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- ----------------------------
 -- Records of smbms_role
@@ -159,7 +159,7 @@ CREATE TABLE `smbms_user` (
   `modifyBy` BIGINT(20) DEFAULT NULL COMMENT '更新者（userId）',
   `modifyDate` DATETIME DEFAULT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`)
-) ENGINE=INNODB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=INNODB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- ----------------------------
 -- Records of smbms_user
